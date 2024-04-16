@@ -172,7 +172,7 @@ function refresh(newSquareSet) {//纠正位图，保证最终一致性
                 }
                 if (valueMap[i][j] != squareSet[i][j].num) {//判断是否有变化
                     isChange = true;
-                }y
+                }
                 newValueMap[i][j] = squareSet[i][j].num;
             } else {
                 newValueMap[i][j] = 0;
