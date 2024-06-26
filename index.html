@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>2048</title>
 
-    <script src="index.js"></script>
-    <link href="index.css" rel="stylesheet" />
-  </head>
-  <body>
-    <div id="my2048"></div>
-    <div class="btn-wrap">
+<head>
+  <meta charset="UTF-8" />
+  <title>2048</title>
+
+  <script src="index.js"></script>
+  <link href="index.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="main-box">
+      <div class="side">
+        <p>最高分数：<span class="maxScore">0</span></p>
+        <p>当前分数：<span class="currentScore">0</span></p>
+      </div>
+      <div id="my2048"></div>
+      <div class="btn-wrap">
         <button class="start-button">开始游戏</button>
+        <button class="restart-button">重新开始</button>
+      </div>
     </div>
-  </body>
+
+  </div>
+
+</body>
+
 </html>
